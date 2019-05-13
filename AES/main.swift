@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let AES = AEScipher();
 
+
+let image = AES.obtainImageApp()

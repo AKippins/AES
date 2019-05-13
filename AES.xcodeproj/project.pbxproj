@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE335BAE2256BD8000E31C2B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE335BAD2256BD8000E31C2B /* main.swift */; };
+		AE335BB52256EAEF00E31C2B /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE335BB42256EAEF00E31C2B /* AES.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AE335BAA2256BD8000E31C2B /* AES Encryption */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AES Encryption"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE335BAA2256BD8000E31C2B /* AES */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AES; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE335BAD2256BD8000E31C2B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AE335BB42256EAEF00E31C2B /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +43,7 @@
 		AE335BA12256BD8000E31C2B = {
 			isa = PBXGroup;
 			children = (
-				AE335BAC2256BD8000E31C2B /* AES Encryption */,
+				AE335BAC2256BD8000E31C2B /* AES */,
 				AE335BAB2256BD8000E31C2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +51,26 @@
 		AE335BAB2256BD8000E31C2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE335BAA2256BD8000E31C2B /* AES Encryption */,
+				AE335BAA2256BD8000E31C2B /* AES */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE335BAC2256BD8000E31C2B /* AES Encryption */ = {
+		AE335BAC2256BD8000E31C2B /* AES */ = {
 			isa = PBXGroup;
 			children = (
 				AE335BAD2256BD8000E31C2B /* main.swift */,
+				AE335BB42256EAEF00E31C2B /* AES.swift */,
 			);
-			path = "AES Encryption";
+			path = AES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE335BA92256BD8000E31C2B /* AES Encryption */ = {
+		AE335BA92256BD8000E31C2B /* AES */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE335BB12256BD8000E31C2B /* Build configuration list for PBXNativeTarget "AES Encryption" */;
+			buildConfigurationList = AE335BB12256BD8000E31C2B /* Build configuration list for PBXNativeTarget "AES" */;
 			buildPhases = (
 				AE335BA62256BD8000E31C2B /* Sources */,
 				AE335BA72256BD8000E31C2B /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "AES Encryption";
+			name = AES;
 			productName = "AES Encryption";
-			productReference = AE335BAA2256BD8000E31C2B /* AES Encryption */;
+			productReference = AE335BAA2256BD8000E31C2B /* AES */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE335BA52256BD8000E31C2B /* Build configuration list for PBXProject "AES Encryption" */;
+			buildConfigurationList = AE335BA52256BD8000E31C2B /* Build configuration list for PBXProject "AES" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE335BA92256BD8000E31C2B /* AES Encryption */,
+				AE335BA92256BD8000E31C2B /* AES */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE335BB52256EAEF00E31C2B /* AES.swift in Sources */,
 				AE335BAE2256BD8000E31C2B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE335BA52256BD8000E31C2B /* Build configuration list for PBXProject "AES Encryption" */ = {
+		AE335BA52256BD8000E31C2B /* Build configuration list for PBXProject "AES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE335BAF2256BD8000E31C2B /* Debug */,
@@ -271,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE335BB12256BD8000E31C2B /* Build configuration list for PBXNativeTarget "AES Encryption" */ = {
+		AE335BB12256BD8000E31C2B /* Build configuration list for PBXNativeTarget "AES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE335BB22256BD8000E31C2B /* Debug */,
